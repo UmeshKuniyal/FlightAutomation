@@ -1,0 +1,7 @@
+The project is written in C# and the framework used is .net core. 
+For executing the scripts one needs to have Visual studio 2017 or higher version of the IDE.
+These test cases are meant to run on Windows 7 or 10 platforms. 
+Nuget packages(Dependencies) used: AventStack Extent Reporter for reporting, OpenQA.Selenium for UI Automation, Nunit for test framework, Chrome and Gecko drivers for respective browsers. Operating system : Window 7,10 etc. Browser recommended with this project : firefox.    
+11 test cases are added, out of which 10 are UI Validation test cases which check the presence of important UI elements.
+One major test case is responsible to check the functionality of Flight lists if it is available on that day between two cities mentioned explicitly in the script. 
+Set up on .net core may require some time as everyone's development set up differs based on the version of Visual Studio installed. 
